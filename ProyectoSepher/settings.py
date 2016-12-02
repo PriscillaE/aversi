@@ -82,8 +82,11 @@ DATABASES = {
         'NAME': 'sepherv3',
         'USER': 'sepherv3user',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '',
+        'OPTIONS': {
+          'autocommit': True,
+        },'OPTIONS': {
+          'autocommit': True,
+        },
     }
 }
 
